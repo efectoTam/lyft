@@ -30,39 +30,8 @@ h2, h3{
 	padding-right: 0px;
 }
 
-.teclado{
+.nextTelefono{
 	padding: 0px;
-}
-
-.botonNumero{
-	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
-	height: 50px;
-	background-color: #ffffff;
-}
-
-.rowNumero{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.numeros{
-	font-size: 25px;
-}
-
-.espacioGris{
-	background-color: #eaeaea;
-	border: #eaeaea;
-}
-
-.borrarGris{
-	background-color: #eaeaea;
-}
-
-.icon-backspace{
-	color: #000000;
-	font-size: 25px;
 }
 
 .tamanoBanderas{
