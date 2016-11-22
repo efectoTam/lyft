@@ -41,3 +41,8 @@ h2, h3{
 .textareaTel{
 	height: 40px;
 }
+
+a, a:hover{
+	color: black;
+	text-decoration: none;
+}
