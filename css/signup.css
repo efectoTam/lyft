@@ -1,0 +1,75 @@
+h1{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.iconoAizquierda{
+	padding-top: 15px;
+}
+
+.icon-navigate_before{
+	font-size: 30px;
+}
+
+h2, h3{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.nextNumerico{
+	width: 100%;
+	color: #ffffff;
+	background-color: #e30b8c;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 20px;
+	border-right: 0px;
+	border-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.teclado{
+	padding: 0px;
+}
+
+.botonNumero{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 50px;
+	background-color: #ffffff;
+}
+
+.rowNumero{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.numeros{
+	font-size: 25px;
+}
+
+.espacioGris{
+	background-color: #eaeaea;
+	border: #eaeaea;
+}
+
+.borrarGris{
+	background-color: #eaeaea;
+}
+
+.icon-backspace{
+	color: #000000;
+	font-size: 25px;
+}
+
+.tamanoBanderas{
+	width: 20px;
+}
+
+.textareaTel{
+	height: 40px;
+}

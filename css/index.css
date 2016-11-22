@@ -1,0 +1,60 @@
+.fondo{
+	background-image: url(../img/fondopaginauno.jpg);
+	background-position: left;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+}
+
+.imglogo{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 60%;
+	height: 60%;
+	margin-left: 20%;
+}
+
+.logIn{
+	margin-bottom: 10%;
+	margin-top: 10%;
+	height: 60px;
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000; 
+}
+
+.signUp{
+	margin-bottom: 10%;
+	margin-top: 10%;
+	height: 60px;
+	width: 100%;
+	float: right;
+	background-color: #e30b8c;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff; 
+
+}
+
+@media (max-width: 500px) {
+	.imglogo{
+		margin-top: 30%;
+	}
+
+	.logIn{
+		margin-top: 20%;
+	}
+}
+
+@media (max-width: 300px) {
+	.imglogo{
+		margin-top: 30%;
+	}
+
+	.logIn{
+		margin-top: 20%;
+	}
+}
