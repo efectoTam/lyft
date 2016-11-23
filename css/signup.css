@@ -35,7 +35,7 @@ h2, h3{
 }
 
 .tamanoBanderas{
-	width: 20px;
+	width: 25px;
 }
 
 .textareaTel{
@@ -45,4 +45,37 @@ h2, h3{
 a, a:hover{
 	color: black;
 	text-decoration: none;
+}
+
+.tituloCountry{
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.fondocommon{
+	background-color: #f2f2f2;
+}
+
+.common{
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.chile{
+	display: inline;
+}
+
+.paisDiv{
+	margin-top: 10px;
+}
+
+.nombrePais{
+	margin-left: 10px;
+}
+
+.lineaPaises{
+	color: #f2f2f2;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
