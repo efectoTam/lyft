@@ -1,13 +1,13 @@
-//Para signup y country
 $(document).ready(function (){
 
+	//Como inicia automáticamente en Chile, se limitan los números para el teléfono a penas se abre la página.
 	var caracteres = 10;
-		$("#exampleInputAmount").keyup(function(){
-    		if($(this).val().length > caracteres){
-        		$(this).val($(this).val().substr(0, caracteres));
-			}
-		});
-
+	$("#exampleInputAmount").keyup(function(){
+    	if($(this).val().length > caracteres){
+       		$(this).val($(this).val().substr(0, caracteres));
+		}
+	});
+	//Cuando se hace click en cada bandera
 	$('.mexico').click(function (){
 		$(".textareaTel").val("");
 		$(".tamanoBanderas").attr("src","img/banderas/MX.png");
@@ -63,19 +63,18 @@ $(document).ready(function (){
 			}
 		});
 	});
-});
 
-$(document).ready(function (){
+	//El botón para retroceder conecta con Home
 	$(".retroceder").click(function(){
 		window.location.href = "index.html";
 	});
 
+	//El textarea solo acepta números, no letras
     $('.textareaTel').keyup(function (){
         this.value = (this.value + '').replace(/[^0-9]/g, '');
     });
-});
 
-$(document).ready(function(){
+    //Se genera un código aleatorio cuando se hace click en next
 	$(".nextNumerico").click(function(){
 		function numeroAleatorio(min, max) {
   			alert("LAB-"+Math.round(Math.random() * (max - min) + min));
