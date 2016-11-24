@@ -10,7 +10,7 @@ $(document).ready(function (){
 	//Cuando se hace click en cada bandera
 	$('.mexico').click(function (){
 		$(".textareaTel").val("");
-		$(".tamanoBanderas").attr("src","img/banderas/MX.png");
+		$(".tamanoBanderas").attr("src","img/MX.png");
 		$(".prefijoTel").text("+52");
 		$(".textareaTel").attr("placeholder", "123 456 7891");
 
@@ -24,7 +24,7 @@ $(document).ready(function (){
 
 	$('.peru').click(function (){
 		$(".textareaTel").val("");
-		$(".tamanoBanderas").attr("src","img/banderas/PE.png");
+		$(".tamanoBanderas").attr("src","img/PE.png");
 		$(".prefijoTel").text("+51");
 		$(".textareaTel").attr("placeholder", "123 456 789");
 
@@ -38,7 +38,7 @@ $(document).ready(function (){
 
 	$('.estadosUnidos').click(function (){
 		$(".textareaTel").val("");
-		$(".tamanoBanderas").attr("src","img/banderas/US.png");
+		$(".tamanoBanderas").attr("src","img/US.png");
 		$(".prefijoTel").text("+1");
 		$(".textareaTel").attr("placeholder", "(123) 456 7890");
 
@@ -52,7 +52,7 @@ $(document).ready(function (){
 
 	$('.chile').click(function (){
 		$(".textareaTel").val("");
-		$(".tamanoBanderas").attr("src","img/banderas/CL.png");
+		$(".tamanoBanderas").attr("src","img/CL.png");
 		$(".prefijoTel").text("+56");
 		$(".textareaTel").attr("placeholder", "(9) 1234 5678");
 
