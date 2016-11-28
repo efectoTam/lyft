@@ -4,6 +4,33 @@
     {
       "icon": {
         "paths": [
+          "M512 128h298v128h-170v470h-2c-10 96-92 170-190 170-106 0-192-86-192-192s86-192 192-192c22 0 44 4 64 12v-396z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "audiotrack"
+        ],
+        "defaultCode": 58273,
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 14,
+        "ligatures": "audiotrack",
+        "id": 66,
+        "prevSize": 24,
+        "code": 58273,
+        "name": "audiotrack"
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 66
+    },
+    {
+      "icon": {
+        "paths": [
           "M810 666l-152-154 152-154-60-60-152 154-154-154-60 60 154 154-154 154 60 60 154-154 152 154zM938 128c46 0 86 40 86 86v596c0 46-40 86-86 86h-640c-30 0-52-16-68-38l-230-346 230-346c16-22 38-38 68-38h640z"
         ],
         "attrs": [],
@@ -85,6 +112,33 @@
     {
       "icon": {
         "paths": [
+          "M426 854h-212v-342h-128l426-384 426 384h-128v342h-212v-256h-172v256z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "home"
+        ],
+        "defaultCode": 59530,
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 15,
+        "ligatures": "home",
+        "id": 386,
+        "prevSize": 24,
+        "code": 59530,
+        "name": "home"
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 386
+    },
+    {
+      "icon": {
+        "paths": [
           "M316 334l196 196 196-196 60 60-256 256-256-256z"
         ],
         "attrs": [],
@@ -108,6 +162,33 @@
       "setIdx": 0,
       "setId": 2,
       "iconIdx": 411
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 682c46 0 86 40 86 86s-40 86-86 86-86-40-86-86 40-86 86-86zM512 426c46 0 86 40 86 86s-40 86-86 86-86-40-86-86 40-86 86-86zM512 342c-46 0-86-40-86-86s40-86 86-86 86 40 86 86-40 86-86 86z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "more_vert"
+        ],
+        "defaultCode": 58836,
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 17,
+        "ligatures": "more_vert",
+        "id": 502,
+        "prevSize": 24,
+        "code": 58836,
+        "name": "more_vert"
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 502
     },
     {
       "icon": {

@@ -1,0 +1,55 @@
+.avatarBasicoUser{
+	max-width: 100%;
+}
+
+.sinP{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	font-size: 15px;
+	background-color: #eae8e8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.defaultIcono{
+	font-size: 23px;
+	float: right;
+}
+
+.rowDeIconos{
+	margin-top: 15px;
+}
+
+.finDatos{
+	margin-bottom: 20px;
+}
+
+.editarProfile{
+	width: 140px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 50%;
+}
+
+.puntosPerfil{
+	font-size: 30px;
+	float: left;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.botonCambioImg{
+	width: 140px;
+
+}
