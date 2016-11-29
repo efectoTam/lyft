@@ -21,25 +21,25 @@ $(document).ready(function (){
 	//Validaciones de datos al hacer click en el boton next
 		var nombre = $('.nombre').val();
 		if(nombre==null || nombre.length==0 || /^\s+$/.test(nombre)){
-			alert("El campo nombre no debe ir vacío.");
+			alert("El campo first name no debe ir vacío.");
 			return false;
 		}
 
 		var apellido = $('.apellido').val();
 		if(apellido==null || apellido.length==0 || /^\s+$/.test(apellido)){
-			alert("El campo apellido no debe ir vacío.");
+			alert("El campo last name no debe ir vacío.");
 			return false;
 		}
 
 		var patronNombre = /^[a-zA-Z]*$/;
   		if(nombre.search(patronNombre)){
-  			alert("Solo se permitir caracteres de la a-z en el nombre");
+  			alert("Solo se permiten caracteres de la a-z");
   			return false;
   		}
 
   		var patronApellido = /^[a-zA-Z]*$/;
   		if(apellido.search(patronApellido)){
-  			alert("Solo se permitir caracteres de la a-z en el apellido");
+  			alert("Solo se permiten caracteres de la a-z");
   		    return false;
   		} 
 
