@@ -91,3 +91,14 @@ a, a:hover{
 	text-align: center;
 	font-size: 12px;
 }
+.nextVerificacion{
+	width: 100%;
+	color: #ffffff;
+	background-color: #e30b8c;
+	height: 50px;
+	font-size: 20px;
+	border-right: 0px;
+	border-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}

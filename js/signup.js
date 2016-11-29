@@ -87,6 +87,11 @@ $(document).ready(function (){
 		$(".telUsuario:eq(0)").append("Enter the code sent to"+ " " + prefijo+" "+numeroUsuario);
 	});
 
+  	$(".verificarCode").hide();
+  	$(".nextNumerico").click(function(){
+    	$(".ocultarPorCodigo").hide();
+    	$(".verificarCode").show();
+  	});
 
 
 });
