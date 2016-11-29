@@ -50,17 +50,24 @@ $(document).ready(function (){
 			alert("Ingrese su teléfono");
 			return false;
 		} else{
-			var numeroUsuario= $(".textareaTel").val();
-			var prefijo = $(".prefijoTel").text();
-			$(".telUsuario:eq(0)").append("Enter the code sent to"+ " " + prefijo+" "+numeroUsuario);
-			function numeroAleatorio(min, max) {
-	  			var numAlea= ("LAB-"+Math.round(Math.random() * (max - min) + min));
-	  			alert(numAlea);
-	  			localStorage.setItem("codigoDado", numAlea);
+			var telefono = $('.textareaTel').val();
+			if($(".textareaTel").attr("maxlength") == telefono.length){
+				var numeroUsuario= $(".textareaTel").val();
+				var prefijo = $(".prefijoTel").text();
+				localStorage.setItem("telefonoUser", numeroUsuario);
+				$(".telUsuario:eq(0)").append("Enter the code sent to"+ " " + prefijo+" "+localStorage.getItem("telefonoUser"));
+				function numeroAleatorio(min, max) {
+			  		var numAlea= ("LAB-"+Math.round(Math.random() * (max - min) + min));
+			  		alert(numAlea);
+			  		localStorage.setItem("codigoDado", numAlea);
+				}
+				numeroAleatorio(100, 999);
+		    	$(".ocultarPorCodigo").hide();
+		    	$(".verificarCode").show();
+			} else{
+				alert("Verifique su número de teléfono");
+				return false;
 			}
-			numeroAleatorio(100, 999);
-    		$(".ocultarPorCodigo").hide();
-    		$(".verificarCode").show();
     	}
   	});
   	$(".retrocederTelefono").click(function(){
