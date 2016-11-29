@@ -55,3 +55,11 @@ a, a:hover{
 .namePaddding, .emailPadding{
 	padding-left: 40px;
 }
+
+.padRowDer{
+	padding-right: 2.5px;
+}
+
+.padRowIzq{
+	padding-left: 2.5px;
+}
