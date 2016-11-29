@@ -33,13 +33,13 @@ $(document).ready(function (){
 
 		var patronNombre = /^[a-zA-Z]*$/;
   		if(nombre.search(patronNombre)){
-  			alert("Solo se permiten caracteres de la a-z");
+  			alert("Solo se permiten caracteres de la a-z en first name y last name");
   			return false;
   		}
 
   		var patronApellido = /^[a-zA-Z]*$/;
   		if(apellido.search(patronApellido)){
-  			alert("Solo se permiten caracteres de la a-z");
+  			alert("Solo se permiten caracteres de la a-z en first name y last name");
   		    return false;
   		} 
 
