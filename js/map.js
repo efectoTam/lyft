@@ -21,3 +21,13 @@ function main(){
 	});
  
 };
+
+$(document).ready(function (){
+	$(".verPerfil").click(function(){
+		window.location.href = "userinfo.html";
+	});
+
+	$(".home").click(function(){
+		window.location.href = "index.html";
+	});
+});
