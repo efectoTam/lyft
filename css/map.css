@@ -174,7 +174,7 @@ a:hover{
 }
 
 .distanciaEnMenu{
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .paddingA{
@@ -185,12 +185,14 @@ a:hover{
 .nombreUsuario{
 	text-align: center;
 	font-size: 20px;
+	margin-bottom: 0px;
 }
 
 .verPerfil{
 	text-align: center;
 	font-size: 12px;
 	color: grey;
+	margin-bottom: 0px;
 }
 
 .fondoFinal{
