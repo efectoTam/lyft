@@ -20,6 +20,11 @@ $(function() {
 });
 
 $(document).ready(function(){
+  $("#pUsuarioEstadoUno").append(localStorage.getItem("nombreParaUsuario"));
+  $("#pUsuarioEstadoDos").append(localStorage.getItem("nombreParaUsuario"));
+  $(".h1NombreUno:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
+  $(".h1NombreDos:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
+
   $(".paraEditar").hide();
   $(".editarProfile").click(function(){
     $(".perfilEditado").hide();
