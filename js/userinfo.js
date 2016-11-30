@@ -22,19 +22,25 @@ $(function() {
 });
 
 $(document).ready(function(){
+	// preguntas si existe una imagen guardadad anteriormente
+	// si efectivamente existe, reemplazas el src de la imagen perfilEnMenu
   $("#pUsuarioEstadoUno").append(localStorage.getItem("nombreParaUsuario"));
   $("#pUsuarioEstadoDos").append(localStorage.getItem("nombreParaUsuario"));
   $(".h1NombreUno:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
   $(".h1NombreDos:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
   //Si la imagen se obtiene aquí hay que refrezcar la página
-  $('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
-  $('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
-  $('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
+  //$('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
+  //$('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
+  //$('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
 
   $(".paraEditar").hide();
   $(".editarProfile").click(function(){
     $(".perfilEditado").hide();
     $(".paraEditar").show();
+
+    if($("#actualizarImg").has(localStorage.getItem("imgUser"))){
+		return ("si tiene");
+	}
   });
 
   $(".botonGuardar").click(function(){
