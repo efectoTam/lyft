@@ -3,7 +3,7 @@ $(document).ready(main);
 var contador = 1;
  
 function main(){
-	$('.miniPerfil').click(function(){
+	$('.verMenu').click(function(){
 		// $('nav').toggle(); 
  
 		if(contador == 1){
