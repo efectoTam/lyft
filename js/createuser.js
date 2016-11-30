@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	$(".aSignup").click(function(){
-		window.location.href = "signup.html";
+		window.location.href = "map.html";
 	});
 
 	$(".nextUsuario").click(function(){
@@ -17,6 +17,12 @@ $(document).ready(function (){
 			return false;
 		}
 
+		var mail = $('.email').val();
+		if(mail==null || mail.length==0 || /^\s+$/.test(mail)){
+			alert("El campo email no debe ir vacío.");
+			return false;
+		}
+
 		var patronNombre = /^[a-zA-Z]*$/;
   		if(nombre.search(patronNombre)){
   			alert("Solo se permiten caracteres de la a-z en first name y last name");
@@ -29,8 +35,14 @@ $(document).ready(function (){
   		    return false;
   		}
 
+  		var ticket = $(".elCheckbox").is(":checked");
+        if (!ticket) {
+        	alert("Debe aceptar las condiciones");
+        	return false;
+        }
+
   		else{
-  		//Para los campos nombre y apellido la primera letra debe ser mayúscula.
+  			//Para los campos nombre y apellido la primera letra debe ser mayúscula.
 	  		//PARA NOMBRE
 			//Hacer que todas las letras queden en minúscula por si el usuario puso algo en mayúscula
 			var nombreMinuscula= document.getElementById('name').value.toLowerCase();
@@ -64,13 +76,10 @@ $(document).ready(function (){
 			//Unir los elementos del array en una palabra
 			var apellidoListo=arregloApellido.join("");
 			document.getElementById('lastname').value=apellidoListo;
-
-			alert("Bienvenid@"+" "+nombreListo+" "+apellidoListo)
-  		}
-
-  	
-
-		
+			
+			window.location.href = "map.html";
+			return false;
+  		};
 	});
 
 
