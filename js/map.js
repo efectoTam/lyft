@@ -33,5 +33,8 @@ $(document).ready(function (){
 
 	$(".nombreUsuario:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
 
+	$('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
+	$('.miniPerfil').attr("src", localStorage.getItem("imgUser"));
+
 
 });

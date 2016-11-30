@@ -13,9 +13,10 @@ $(function() {
   }
   function fileOnload(e) {
     var result=e.target.result;
-    $('#nuevaImagenUno').attr("src",result);
-    $('#nuevaImagenDos').attr("src",result);
-    $('.perfilEnMenu').attr("src", result);
+    localStorage.setItem("imgUser", result);
+    $('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
+    $('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
+    $('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
   }
 });
 
