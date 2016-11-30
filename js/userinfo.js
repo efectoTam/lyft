@@ -15,9 +15,9 @@ $(function() {
     var result=e.target.result;
     localStorage.setItem("imgUser", result);
     //Si la imagen se obtiene aquí queda por defecto aunque empiece desde 0
-    //$('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
-    //$('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
-    //$('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
+    $('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
+    $('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
+    $('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
   }
 });
 
