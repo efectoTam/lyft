@@ -15,9 +15,9 @@ $(function() {
     var result=e.target.result;
     localStorage.setItem("imgUser", result);
     //Si la imagen se obtiene aquí queda por defecto aunque empiece desde 0
-    $('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
-    $('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
-    $('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
+    //$('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
+    //$('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
+    //$('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
   }
 });
 
@@ -29,9 +29,9 @@ $(document).ready(function(){
   $(".h1NombreUno:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
   $(".h1NombreDos:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
   //Si la imagen se obtiene aquí hay que refrescar la página
-  //$('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
-  //$('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
-  //$('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
+  $('#nuevaImagenUno').attr("src", localStorage.getItem("imgUser"));
+  $('#nuevaImagenDos').attr("src", localStorage.getItem("imgUser"));
+  $('.perfilEnMenu').attr("src", localStorage.getItem("imgUser"));
 
   $(".paraEditar").hide();
   $(".editarProfile").click(function(){
