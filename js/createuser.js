@@ -23,6 +23,11 @@ $(document).ready(function (){
 			return false;
 		}
 
+		if(!(/\S+@\S+\.\S+/.test(mail))){ 
+			alert("Ingrese un email válido");
+			return false;
+		}
+
 		var patronNombre = /^[a-zA-Z]*$/;
   		if(nombre.search(patronNombre)){
   			alert("Solo se permiten caracteres de la a-z en first name y last name");
