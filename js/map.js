@@ -30,4 +30,8 @@ $(document).ready(function (){
 	$(".home").click(function(){
 		window.location.href = "index.html";
 	});
+
+	$(".nombreUsuario:eq(0)").append(localStorage.getItem("nombreParaUsuario"));
+
+
 });

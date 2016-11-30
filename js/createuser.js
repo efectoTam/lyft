@@ -76,6 +76,9 @@ $(document).ready(function (){
 			//Unir los elementos del array en una palabra
 			var apellidoListo=arregloApellido.join("");
 			document.getElementById('lastname').value=apellidoListo;
+
+			var nombre = $('.nombre').val();
+			localStorage.setItem("nombreParaUsuario", nombre);
 			
 			window.location.href = "map.html";
 			return false;
